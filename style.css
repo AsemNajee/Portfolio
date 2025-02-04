@@ -20,7 +20,7 @@
 a{
    color: #fff;
 }
-a:hover{
+header a:hover, .social a:hover{
    color: #0091ff;
    text-decoration: underline;
 }
@@ -322,6 +322,18 @@ div[class $= '-item'] h3 {
 
 .projects .project-item .body {
    padding: 5px 5px;
+}
+
+.projects .project-item .body a {
+   background-color: var(--main-color);
+   padding: 0 8px;
+   border-radius: 4px;
+}
+
+.projects .project-item .body a:hover {
+   position: relative;
+   transform: scale(1.5);
+   /* background-color: #fff; */
 }
 
 .education {
